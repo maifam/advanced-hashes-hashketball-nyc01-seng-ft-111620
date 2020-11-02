@@ -132,7 +132,9 @@ def num_points_scored(player_name)
       if in_k == :players 
         in_v.each do |val| 
           if val[:player_name] == player_name 
-
+            return val[:points]
+          end 
+        end
       end 
     end 
   end 
