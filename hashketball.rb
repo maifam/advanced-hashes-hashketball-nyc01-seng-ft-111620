@@ -134,6 +134,7 @@ def shoe_size
 end 
 
 def team_colors 
+  game_hash.each
 end 
 
 def team_names
