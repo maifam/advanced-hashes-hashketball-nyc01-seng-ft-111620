@@ -135,7 +135,7 @@ end
 
 def team_colors 
   game_hash.each do |team,val|
-    if 
+    if val[]
 end 
 
 def team_names
