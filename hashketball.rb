@@ -130,7 +130,7 @@ def num_points_scored(player_name)
   game_hash.each do |key, value|
     value.each do |in_k, in_v|
       if in_k == :players 
-        
+        in_v.each do |
     
   end 
   
