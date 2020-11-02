@@ -131,6 +131,7 @@ def num_points_scored
 end 
 
 def shoe_size 
+  
 end 
 
 def team_colors 
@@ -158,7 +159,6 @@ end
 def big_shoe_rebounds 
 end 
 
-def 
 
 
 
