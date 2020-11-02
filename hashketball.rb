@@ -130,9 +130,9 @@ def num_points_scored(player_name)
   game_hash.each do |key, value|
     value.each do |in_k, in_v|
       if in_k == :players 
-        in_v.each do |val| 
-          if val[:player_name] == player_name 
-            return val[:points]
+        in_v.each do |stat| 
+          if stat[:player_name] == player_name 
+            return stat[:points]
           end 
         end
       end 
