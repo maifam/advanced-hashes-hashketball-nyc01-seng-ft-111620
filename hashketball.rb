@@ -130,22 +130,12 @@ def get_players
   players = game_hash.values.collect do |team| 
     team[:players]
   end 
-  
+  players.flatten
 end 
 
 def num_points_scored(player_name)
   
-  game_hash.each do |team, value|
-    value.each do |in_k, in_v|
-      if in_k == :players 
-        in_v.each do |stat| 
-          if stat[:player_name] == player_name 
-            return stat[:points]
-          end 
-        end
-      end 
-    end 
-  end 
+  
 end 
 
   
