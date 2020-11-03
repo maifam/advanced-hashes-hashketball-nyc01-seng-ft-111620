@@ -181,6 +181,7 @@ def player_numbers(team_name)
 end 
 
 def player_stats(player_name)
+  game_hash.each do 
 end 
 
 def big_shoe_rebounds
