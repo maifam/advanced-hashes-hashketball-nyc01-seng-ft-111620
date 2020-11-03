@@ -174,7 +174,6 @@ def player_numbers(team_name)
     if values[:team_name] == team_name 
       values[:players].each do |stats|
         numbers << stats[:number]
-        binding.pry
       end 
     end 
   end 
