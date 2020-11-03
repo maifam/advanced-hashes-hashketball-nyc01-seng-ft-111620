@@ -126,6 +126,13 @@ def game_hash
   }
 end
 
+def get_players 
+  players = game_hash.values.collect do |team| 
+    team[:players]
+  end 
+  
+end 
+
 def num_points_scored(player_name)
   
   game_hash.each do |team, value|
