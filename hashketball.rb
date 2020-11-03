@@ -164,7 +164,9 @@ def team_names
   end 
 end 
 
-def player_numbers(team_names)
+def player_numbers(team_name)
+  arr = [] 
+  game_hash.each
 end 
 
 def player_stats
