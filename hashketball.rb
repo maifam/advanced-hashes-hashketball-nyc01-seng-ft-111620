@@ -142,6 +142,9 @@ def num_points_scored(player_name)
   end 
 end 
 
+def shoe_size 
+end 
+
 def team_colors 
   game_hash.each do |team,val|
     if val[:team_name] == team_name 
