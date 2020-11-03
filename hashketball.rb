@@ -194,7 +194,8 @@ def big_shoe_rebounds
   
   game_hash.each do |team, value|
     value[:players].each do |stat| 
-      if stat[:shoes] > shoe_size
+      if shoe_size < stat[:shoe]
+        shoe_size 
         
       
 end 
