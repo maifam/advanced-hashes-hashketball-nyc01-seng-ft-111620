@@ -159,11 +159,9 @@ def team_colors
 end 
 
 def team_names
-  team_names = [] 
-  game_hash.each do |key, val|
-    team_names << val[:team_name]
+  game_hash.collect do |team, value|
+    value[:team_name]
   end 
-  return team_names
 end 
 
 def player_numbers
